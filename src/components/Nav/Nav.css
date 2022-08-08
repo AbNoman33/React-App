@@ -1,0 +1,36 @@
+body {
+    padding: 20px;
+}
+
+.logo-menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+    padding: 10px;
+    margin-top: 0;
+    position: sticky;
+    
+}
+
+.menu nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.menu nav ul li {
+    margin-left: 20px;
+}
+
+.menu nav ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.menu nav ul li a:hover {
+    color: coral;
+}
+

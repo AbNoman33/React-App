@@ -1,0 +1,12 @@
+h2 {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+}
+
+.hero__content {
+    z-index: 2;
+}
+
